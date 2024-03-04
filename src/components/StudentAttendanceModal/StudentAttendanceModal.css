@@ -1,0 +1,179 @@
+.StudentAttendanceModal .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontWeight{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  .StudentAttendanceModal  .modal {
+    background-color: #fff;
+    width: 730px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+  .StudentAttendanceModal  .modal-header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* align-items: center; */
+    margin-bottom: 10px;
+  }
+  .StudentAttendanceModal  .modal-header .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .StudentAttendanceModal  .modal-header .header .amyrobson{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .StudentAttendanceModal  .modal-header .header .amyrobson img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+  .StudentAttendanceModal  .modal-header .header .amyrobson h2{
+    color: #334253;
+  }
+  .StudentAttendanceModal  .modal-header .header .amyrobson p{
+    color: #67727E;
+  }
+  .StudentAttendanceModal  .modal-header .header h4{
+    cursor: pointer;
+    color: #00AFEF;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .StudentAttendanceModal  .modal-header .Sonali{
+    color: #67727E;
+    text-align: start;
+    margin-top: 10px;
+  }
+  .StudentAttendanceModal  .modal-body {
+    padding: 5px 0px 30px 30px;
+    display: flex;
+    align-items: center;
+    background-color: #F5F4F6;
+  }
+  .StudentAttendanceModal  .modal-body hr{
+    border-top: 1px solid #E9EBF0;
+    width: 6rem;
+    transform: rotate(90deg);
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo{
+    background-color: #fff;
+    width: 90%;
+    height: 90px;
+    padding: 10px;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .userDet{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .userDet img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .userDet h3{
+    color: #334253;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .userDet h4{
+    color: #67727E;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .userDet span{
+    width: 36px;
+    height: 19px;
+    color: #fff;
+    background-color: #00AFEF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .icons p{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .icons p svg{
+    color: #334253;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .icons .delete{
+    color: #ED6368;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user .userInfo .icons .edit{
+    color: #00AFEF;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user h6{
+    color: #67727E;
+    margin-top: 15px;
+  }
+  .StudentAttendanceModal  .modal-body .juliusomo .user h6 span{
+    color: #00AFEF;
+    font-weight: 500;
+  }
+  .StudentAttendanceModal .modal-footer{
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .StudentAttendanceModal .modal-footer img{
+    width: 35px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+  .StudentAttendanceModal .modal-footer textarea{
+    width: 90%;
+    height: 96px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    border-color: #E9EBF0;
+  }
+  .StudentAttendanceModal .modal-footer button{
+    background-color: #00AFEF;
+    width: 100px;
+    height: 48px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
